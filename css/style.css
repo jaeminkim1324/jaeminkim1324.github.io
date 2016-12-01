@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-
+	max-height: 800px;
 }
 
 h1, h2, h3, h4 {
@@ -37,4 +37,25 @@ p {
 
 .wrapper {
 	text-align: center;
+}
+
+.nav-ul {
+	position:fixed;
+	margin: 0;
+	list-style-type: none;
+	background-color: white;
+	min-width: 300px;
+	width:100vw;
+	height: 50px;
+	padding: 15px 50px 0px 0px;
+	text-align:right;
+	border-bottom: 1px solid;
+	border-color: #b7b7b7;
+	z-index: 1;
+}
+
+.nav-ul > li {
+	display: inline;
+	position: relative;
+	padding: 15px;
 }
